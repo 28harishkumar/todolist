@@ -15,7 +15,7 @@ Contact [Harish](https://www.facebook.com/profile.php?id=100003606204068) for mo
 Installation
 -------
 
-The frontend is developed [Bootstrap](). If you wish to test it out, install xampp and fork the repository to `~\xampp\htdocs`. Start apache and mysql services and go to `localhost\todo` .
+The frontend is developed [Bootstrap](http://getbootstrap.com/). If you wish to test it out, install xampp and fork the repository to `~\xampp\htdocs`. Start apache and mysql services and go to `localhost\todo` .
 
 
 Contributing
