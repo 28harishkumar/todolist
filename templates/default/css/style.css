@@ -1,0 +1,34 @@
+*{margin:0;padding:0;}
+
+body{
+	min-width:850px;
+}
+
+.header{
+	background-color:#345234;
+	color:white;	
+	font-weight:bold;
+	font-size:55px;
+	padding:15px 10px;
+	font-family: cursive;	
+}
+.sidebar{
+	width: 12%;
+	min-width: 120px;
+	float:left;
+	box-shadow: 5px 5px 5px #523454;
+	overflow:hidden;
+}
+.content{
+width: 85%;
+float: right;
+padding: 5px;
+min-height: 450px;
+}
+.footer{
+text-align: center;
+background: #345234;
+color: white;
+padding: 21px 3px;
+}
+.clear{clear:both;}
