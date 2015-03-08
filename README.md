@@ -17,6 +17,10 @@ Installation
 
 The frontend is developed [Bootstrap](http://getbootstrap.com/). If you wish to test it out, install xampp and fork the repository to `~\xampp\htdocs`. Start apache and mysql services and go to `localhost\todo` .
 
+tutorials
+------------
+
+I am creating this cms as well as tutorial for this cms. I will upload the tutorial on my blogging webiste [Find All Together](http://findalltogether.blogspot.com/) very soon. I will tell how I have built this cms step by step.
 
 Contributing
 ------------
