@@ -107,19 +107,19 @@ class DefaultApplication extends CmsApplication{
 				{
 				?>
 					<tr>
-						<td><?php echo $row['title'];?></td>
-						<td><?php echo $row['desc'];?></td>
+						<td><?php echo htmlspecialchars($row['title'], ENT_QUOTES, 'UTF-8');?></td>
+						<td><?php echo htmlspecialchars($row['desc'], ENT_QUOTES, 'UTF-8');?></td>
 						<td><div class="progress">
 						  <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar"
 						  aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" 
-						  style="width:<?php echo $row['progress'];?>%">
+						  style="width:<?php echo htmlspecialchars($row['progress'], ENT_QUOTES, 'UTF-8');?>%">
 						  </div>
 						</div></td>
 						<td><?php $this->time_left($row['end_date']);?></td>
-						<?php if($label == 'all'){ echo '<td>'.$row['label'].'</td>';}?>
+						<?php if($label == 'all'){ echo '<td>'.htmlspecialchars($row['label'], ENT_QUOTES, 'UTF-8').'</td>';}?>
 						<td>
-						   <a href="index.php?task=edittaskform&taskid=<?php echo $row['id'];?>">Edit</a>|
-						   <a href="index.php?task=deletetask&taskid=<?php echo $row['id'];?>">Delete</a>
+						   <a href="index.php?task=edittaskform&taskid=<?php echo htmlspecialchars($row['id'], ENT_QUOTES, 'UTF-8');?>">Edit</a>|
+						   <a href="index.php?task=deletetask&taskid=<?php echo htmlspecialchars($row['id'], ENT_QUOTES, 'UTF-8');?>">Delete</a>
 						 </td>
 					</tr>
 				<?php
