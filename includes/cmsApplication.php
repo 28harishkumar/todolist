@@ -22,5 +22,12 @@ class CmsApplication extends CmsBase{
 			header('Location:'.$url);exit(0);
 		}
 	}
+	protected function loginrequired()
+	{
+		if(!isset($_SESSION['user_session']))
+		{
+			$this->redirect('index.php?app=account&task=logintask#login');
+		}
+	}
 }
 ?>

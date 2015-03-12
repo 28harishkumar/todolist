@@ -3,6 +3,8 @@ require_once('includes/cmsWidget.php');
 class SidemenuWidget extends CmsWidget{		
 	function display()
 	{
+		if($this->is_login())
+		{
 		?>
 		  <div>
 		    <h3>Links</h3>
@@ -10,6 +12,7 @@ class SidemenuWidget extends CmsWidget{
 		      <ul class="nav nav-pills nav-stacked">
 		        <li><a href="index.php?task=addtaskform">Add Todo Task</a></li>
 		        <li><a href="index.php?task=viewtodolist">View Todo List</a></li>
+		        <li><a href="index.php?app=account&task=logoutuser">Log out</a></li>
 		      </ul>
 		    </div>
 		    <h3>Labels</h3>
@@ -23,6 +26,7 @@ class SidemenuWidget extends CmsWidget{
 		    </div>
 		   </div>
 		<?php
+		}
 	}
 }
 ?>

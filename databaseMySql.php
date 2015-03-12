@@ -24,14 +24,7 @@
 	 private function connect()
 	 {
 		$info = 'mysql:host='.$this->dbserver.';dbname='.$this->dbname;
-		try{
-			$this->con = new PDO($info, $this->dbuser, $this->dbpass);//data server connection
-		}
-		catch(PDOException $Exception )
-		{
-			echo 'Sorry, there is some problem in database connection. Please wait far a while.';
-		}
-		
+		$this->con = new PDO($info, $this->dbuser, $this->dbpass);//data server connection
 
 		if (!$this->con)
 		{
