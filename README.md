@@ -20,7 +20,7 @@ The frontend is developed [Bootstrap](http://getbootstrap.com/). If you wish to 
 tutorials
 ------------
 
-I am creating this cms as well as tutorial for this cms. I will upload the tutorial on my blogging webiste [Find All Together](http://findalltogether.blogspot.com/) very soon. I will tell how I have built this cms step by step.
+I am creating this cms as well as tutorial for this cms. The tutorials are on my blogging webiste [Find All Together](http://www.findalltogether.com/wp/tag/create-cms/) . [Learn how to built a cms step by step](http://www.findalltogether.com/wp/tag/create-cms/).
 
 Demo
 ------------
